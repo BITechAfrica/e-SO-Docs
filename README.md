@@ -152,7 +152,8 @@ These charts provide visual analysis of strategic performance data:
 3. **Use for**: Performance monitoring, resource planning, risk management
 
 ### For Technical Teams
-1. **Start with**: [Overall Strategic Analytics Documentation](./OverallStrategicAnalyticsDoc.md)
+1. **Start with**: [Overall Strategic Analytics Documentation](./OverallStrategicAnalyticsDoc.md)![image](https://github.com/user-attachments/assets/93267bde-928c-48d2-a059-37a5bb08bca6)
+
 2. **Focus on**: Technical implementation and integration guidelines
 3. **Use for**: System development, maintenance, and enhancement
 
