@@ -89,6 +89,8 @@ These sections provide detailed analytical views and comprehensive data analysis
 - **Business Value**: Data transparency and category comparison analysis
 
 #### [Key Insights & Recommendations Section](./KeyInsightsSection.md)
+![image](https://github.com/user-attachments/assets/06f7df4d-fc99-4742-b106-9b742fa5d676)
+
 - **Purpose**: Strategic intelligence hub presenting data-driven insights
 - **Key Metrics**: Performance analysis, risk identification, success recognition
 - **Visual Elements**: Color-coded insight cards with actionable recommendations
