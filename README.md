@@ -37,6 +37,8 @@ These widgets form the main interactive elements of the Strategic Analytics Dash
 - **Business Value**: Portfolio visibility and progress tracking
 
 #### [Risk Assessment Widget](./RiskAssessmentWidget.md)
+![image](https://github.com/user-attachments/assets/de2be05a-6ecf-4157-996d-7ccb4ea10197)
+
 - **Purpose**: Early warning system for strategic execution risks
 - **Key Metrics**: Risk level indicator, critical areas count, underperforming objectives
 - **Visual Elements**: Color-coded risk alerts with priority indicators
