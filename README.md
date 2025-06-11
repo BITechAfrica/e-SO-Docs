@@ -65,6 +65,8 @@ These widgets form the main interactive elements of the Strategic Analytics Dash
 These sections provide detailed analytical views and comprehensive data analysis:
 
 #### [Detailed Analytics Summary Table](./DetailedAnalyticsTable.md)
+![image](https://github.com/user-attachments/assets/a706eeae-2947-46fe-ad3c-0e4ea857b71b)
+
 - **Purpose**: Comprehensive tabular view of strategic performance across all categories
 - **Key Metrics**: Category performance, completion rates, status assessments
 - **Visual Elements**: Sortable table with performance badges and progress bars
@@ -118,7 +120,6 @@ These charts provide visual analysis of strategic performance data:
 3. **Use for**: Board presentations, investor updates, strategic planning
 
 ### For Project Managers and Analysts
-![image](https://github.com/user-attachments/assets/3f76837b-4369-4775-9191-0e36a2d55d84)
 1. **Start with**: [Detailed Analytics Table](./DetailedAnalyticsTable.md) and [Risk Assessment Widget](./RiskAssessmentWidget.md)
 2. **Focus on**: Calculation methods and implementation details
 3. **Use for**: Performance monitoring, resource planning, risk management
