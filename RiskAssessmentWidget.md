@@ -1,4 +1,5 @@
 # Risk Assessment Widget
+![image](https://github.com/user-attachments/assets/4e7c7527-c000-4a70-8148-4cc8ba9060ce)
 
 ## Description and Overview
 
