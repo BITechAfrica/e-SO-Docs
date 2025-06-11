@@ -1,4 +1,5 @@
 # Action Items Widget
+![image](https://github.com/user-attachments/assets/7e203d08-73f1-47c1-a679-20f23b037a83)
 
 ## Description and Overview
 
