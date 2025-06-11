@@ -118,6 +118,8 @@ These charts provide visual analysis of strategic performance data:
 - **Business Value**: Performance benchmarking and resource allocation guidance
 
 #### [Sub-Objectives Completion Status Chart](./SubObjectivesCompletionChart.md)
+![image](https://github.com/user-attachments/assets/e6a6b6d1-d00f-4e81-b280-e185c3e7b92d)
+
 - **Purpose**: Visual representation of tactical execution progress
 - **Chart Type**: Donut chart showing completion vs. pending status
 - **Key Metrics**: Completed tasks, pending tasks, completion percentage
