@@ -13,6 +13,8 @@ The dashboard transforms complex strategic data into actionable intelligence thr
 These widgets form the main interactive elements of the Strategic Analytics Dashboard:
 
 #### [Performance Overview Widget](./PerformanceOverviewWidget.md)
+![image](https://github.com/user-attachments/assets/96f57f6d-45b5-493a-8995-c2b8337ea69d)
+
 - **Purpose**: Central command center showing overall organizational performance
 - **Key Metrics**: Overall performance percentage, objectives on track, sub-objectives progress
 - **Visual Elements**: Radial chart with color-coded status indicators
