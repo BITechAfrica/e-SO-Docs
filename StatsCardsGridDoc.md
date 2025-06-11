@@ -1,4 +1,5 @@
 # Strategic Performance Cards Grid - Key Performance Indicators Dashboard
+![image](https://github.com/user-attachments/assets/74dbb4af-3ce6-408f-9421-ec5559f47c68)
 
 ## Description and Overview
 
