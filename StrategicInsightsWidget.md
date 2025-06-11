@@ -1,4 +1,5 @@
 # Strategic Insights & Recommendations Widget
+![image](https://github.com/user-attachments/assets/8f370a5b-def2-4cf3-b485-6a04b8acace6)
 
 ## Description and Overview
 
