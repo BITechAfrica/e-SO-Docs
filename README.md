@@ -53,6 +53,8 @@ These widgets form the main interactive elements of the Strategic Analytics Dash
 - **Business Value**: Trend identification and predictive insights
 
 #### [Action Items Widget](./ActionItemsWidget.md)
+![image](https://github.com/user-attachments/assets/57a2f61b-ce8e-4756-b49a-22e839b0c7f1)
+
 - **Purpose**: Priority task management and intervention planning
 - **Key Metrics**: Priority action count, high/medium/low priority items
 - **Visual Elements**: Categorized action list with priority color coding
