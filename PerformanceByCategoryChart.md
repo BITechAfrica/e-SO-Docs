@@ -1,4 +1,5 @@
 # Performance by Strategic Category Chart
+![image](https://github.com/user-attachments/assets/88956981-f9e7-42ed-8bec-610ef4c5511d)
 
 ## Description and Overview
 
