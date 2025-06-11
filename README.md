@@ -69,6 +69,8 @@ These widgets form the main interactive elements of the Strategic Analytics Dash
 - **Business Value**: Executive efficiency and rapid decision support
 
 #### [Strategic Insights Widget](./StrategicInsightsWidget.md)
+![image](https://github.com/user-attachments/assets/acf11f67-e7b2-4e69-ade0-cd8025f6c96c)
+
 - **Purpose**: Intelligence center providing data-driven insights and recommendations
 - **Key Metrics**: Performance insights, risk alerts, success recognition, strategic recommendations
 - **Visual Elements**: Insight cards with color-coded types and action guidance
