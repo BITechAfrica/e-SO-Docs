@@ -1,4 +1,5 @@
 # Key Insights & Recommendations Section
+![image](https://github.com/user-attachments/assets/d3cf2175-19ef-4d7a-ae01-06f990aefc22)
 
 ## Description and Overview
 
