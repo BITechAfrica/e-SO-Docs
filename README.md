@@ -118,6 +118,7 @@ These charts provide visual analysis of strategic performance data:
 3. **Use for**: Board presentations, investor updates, strategic planning
 
 ### For Project Managers and Analysts
+![image](https://github.com/user-attachments/assets/3f76837b-4369-4775-9191-0e36a2d55d84)
 1. **Start with**: [Detailed Analytics Table](./DetailedAnalyticsTable.md) and [Risk Assessment Widget](./RiskAssessmentWidget.md)
 2. **Focus on**: Calculation methods and implementation details
 3. **Use for**: Performance monitoring, resource planning, risk management
