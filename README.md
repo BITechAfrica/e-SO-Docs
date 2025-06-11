@@ -61,6 +61,8 @@ These widgets form the main interactive elements of the Strategic Analytics Dash
 - **Business Value**: Gap-to-action translation and accountability creation
 
 #### [Quick Metrics Widget](./QuickMetricsWidget.md)
+![image](https://github.com/user-attachments/assets/ea511981-d679-4428-9be5-b5de0c81ff41)
+
 - **Purpose**: Rapid-fire view of four essential performance indicators
 - **Key Metrics**: Target achievement rate, average progress, resource utilization, growth rate
 - **Visual Elements**: 2x2 grid with icon-value-label combinations
