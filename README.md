@@ -45,6 +45,8 @@ These widgets form the main interactive elements of the Strategic Analytics Dash
 - **Business Value**: Proactive risk management and intervention planning
 
 #### [Progress Timeline Widget](./ProgressTimelineWidget.md)
+![image](https://github.com/user-attachments/assets/1f2d6837-6b10-46b6-a865-43d8cbafe013)
+
 - **Purpose**: Historical view of organizational performance trends
 - **Key Metrics**: Performance evolution over time, trend analysis, velocity tracking
 - **Visual Elements**: Line chart showing performance trajectory
