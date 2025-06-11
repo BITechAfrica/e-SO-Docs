@@ -1,4 +1,5 @@
 # Completion Status Widget
+![image](https://github.com/user-attachments/assets/72ebc252-b8e8-4c8c-b97f-76e295c55ad7)
 
 ## Description and Overview
 
