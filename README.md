@@ -101,6 +101,9 @@ These sections provide detailed analytical views and comprehensive data analysis
 These charts provide visual analysis of strategic performance data:
 
 #### [Strategic Objectives Distribution Chart](./StrategicObjectivesDistributionChart.md)
+
+![image](https://github.com/user-attachments/assets/f04f6b84-0575-49df-903f-1a1df492cd07)
+
 - **Purpose**: Visual representation of objective allocation across categories
 - **Chart Type**: Pie chart showing proportional distribution
 - **Key Metrics**: Category segments, objective counts, balance assessment
