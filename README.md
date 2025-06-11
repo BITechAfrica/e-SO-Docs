@@ -110,6 +110,8 @@ These charts provide visual analysis of strategic performance data:
 - **Business Value**: Strategic portfolio balance and focus visualization
 
 #### [Performance by Strategic Category Chart](./PerformanceByCategoryChart.md)
+![image](https://github.com/user-attachments/assets/ad07b7b4-4b78-4fbf-9ec2-2aef9c45d62a)
+
 - **Purpose**: Comparative visual analysis of average performance across categories
 - **Chart Type**: Bar chart with performance comparisons
 - **Key Metrics**: Category performance bars, percentage values, threshold indicators
