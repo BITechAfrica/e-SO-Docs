@@ -1,4 +1,5 @@
 # Quick Metrics Widget
+![image](https://github.com/user-attachments/assets/3b1b9628-c021-4948-9b50-6ab54905613c)
 
 ## Description and Overview
 
