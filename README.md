@@ -29,6 +29,8 @@ These widgets form the main interactive elements of the Strategic Analytics Dash
 - **Business Value**: Success identification and best practice recognition
 
 #### [Completion Status Widget](./CompletionStatusWidget.md)
+![image](https://github.com/user-attachments/assets/93680e7f-afa9-46f3-9afe-f366e47772db)
+
 - **Purpose**: Comprehensive overview of project and objective completion
 - **Key Metrics**: Total projects, strategic projects, objectives achieved, sub-objectives completed
 - **Visual Elements**: Three-section grid with completion statistics
