@@ -1,4 +1,5 @@
 # Performance Overview Widget
+![image](https://github.com/user-attachments/assets/601d2f2c-ce82-4eaa-8470-2cea13a6b427)
 
 ## Description and Overview
 
