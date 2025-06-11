@@ -1,4 +1,5 @@
 # Progress Timeline Widget
+![image](https://github.com/user-attachments/assets/3f9b1250-6b5e-483e-af2d-182dce40a3aa)
 
 ## Description and Overview
 
