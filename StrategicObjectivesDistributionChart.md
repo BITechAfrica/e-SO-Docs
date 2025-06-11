@@ -1,4 +1,5 @@
 # Strategic Objectives Distribution Chart
+![image](https://github.com/user-attachments/assets/e3dd76ba-941d-4b70-83ec-516213d40a2c)
 
 ## Description and Overview
 
