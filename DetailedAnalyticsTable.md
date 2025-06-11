@@ -1,5 +1,7 @@
 # Detailed Analytics Summary Table
 
+![image](https://github.com/user-attachments/assets/64339a7b-9db7-45c4-b7ae-3e30f6bb5de1)
+
 ## Description and Overview
 
 The **Detailed Analytics Summary Table** provides a comprehensive tabular view of strategic performance across all organizational categories. This table serves as the detailed data foundation underlying the dashboard visualizations, offering executives and analysts complete visibility into category-specific performance metrics, completion rates, and status assessments.
