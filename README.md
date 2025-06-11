@@ -103,6 +103,8 @@ These charts provide visual analysis of strategic performance data:
 ### 📋 Supporting Documentation
 
 #### [Stats Cards Grid Documentation](./StatsCardsGridDoc.md)
+![image](https://github.com/user-attachments/assets/14b2e2a5-5e94-4e11-b9da-f0422c0feb5c)
+
 - **Purpose**: Comprehensive business-focused explanation of the main KPI dashboard
 - **Content**: Business use cases, calculation formulas, real-world examples
 - **Business Value**: Executive dashboard understanding and decision-making framework
