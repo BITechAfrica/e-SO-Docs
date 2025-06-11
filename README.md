@@ -21,6 +21,8 @@ These widgets form the main interactive elements of the Strategic Analytics Dash
 - **Business Value**: Immediate executive health check and decision support
 
 #### [Top Performing Categories Widget](./TopPerformingCategoriesWidget.md)
+![image](https://github.com/user-attachments/assets/ef564350-4cf3-432b-8f65-29be9d16b8d1)
+
 - **Purpose**: Showcases highest-achieving strategic objective categories
 - **Key Metrics**: Category rankings, performance scores, visual status indicators
 - **Visual Elements**: Ranked list with performance percentages and status badges
