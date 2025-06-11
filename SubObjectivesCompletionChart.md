@@ -1,4 +1,5 @@
 # Sub-Objectives Completion Status Chart
+![image](https://github.com/user-attachments/assets/8e9f3339-8be4-4396-85c1-756007b312e8)
 
 ## Description and Overview
 
