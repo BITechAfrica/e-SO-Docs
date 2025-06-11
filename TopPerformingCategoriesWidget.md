@@ -1,4 +1,5 @@
 # Top Performing Categories Widget
+![image](https://github.com/user-attachments/assets/e2b3ed75-90f6-4b14-a46c-b66d600fd32a)
 
 ## Description and Overview
 
