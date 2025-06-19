@@ -317,4 +317,78 @@ Status: Poor (52% < 60% AND 33% < 40%)
 
 ---
 
+# What Does "Avg. Performance" Mean?
+
+**Avg. Performance** (Average Performance) is a metric that shows, in percentage terms, how much progress has been made toward achieving the strategic objectives in each category.
+
+## How Is It Calculated?
+- For each strategic objective, we look at its sub-objectives and their weights (importance) and completion levels.
+- We calculate a weighted score for each objective, reflecting both how much of each sub-objective is done and how important it is.
+- We cap each objective's performance at 100% (so you can't get more than fully complete).
+- We then average these percentages for all objectives in the category.
+
+## How Do We Measure Completion?
+- **Sub-objective completion** is measured by its `amount` value (as a percentage, e.g., 80 means 80% complete).
+- Each sub-objective also has a `measure` (weight), showing how important it is compared to others under the same objective.
+- For an objective, we multiply each sub-objective's completion (`amount/100`) by its weight (`measure/100`), sum these up, and cap the result at 100%.
+- An objective is considered fully complete if all its sub-objectives are 100% complete and their weights sum to 100%.
+- **Category completion rate** is calculated by counting all sub-objectives that are 100% complete, divided by the total possible sub-objectives in that category.
+
+## What Does It Tell You?
+- **100% Avg. Performance**: All objectives in the category are fully achieved.
+- **50% Avg. Performance**: On average, objectives in the category are halfway to completion.
+- **0% Avg. Performance**: No progress has been made on any objectives in the category.
+
+## Why Is This Useful?
+- It gives a quick, fair, and comparable view of progress across different categories, regardless of how many objectives or sub-objectives each has.
+- It helps you spot which strategic areas are on track and which need attention.
+
+## Example
+If a category has two objectives:
+- Objective 1: 100% complete
+- Objective 2: 50% complete
+
+**Avg. Performance = (100% + 50%) / 2 = 75%**
+
+This means, on average, the objectives in this category are 75% complete.
+
+## Detailed Example Analysis (with 2 Projects)
+
+Let's say we have a strategic category called **"Growth"**. There are 2 projects, each with a strategic objective under this category. Each objective has sub-objectives with different weights and completion levels.
+
+### Project 1: "Plant Upgrade"
+- **Strategic Objective:** Growth
+  - **Sub-Objectives:**
+    - Revenue growth: measure = 60, amount = 100 (fully complete)
+    - Market share: measure = 10, amount = 100 (fully complete)
+    - Head Count: measure = 30, amount = 100 (fully complete)
+  - **Calculation:**
+    - Total weight = 60 + 10 + 30 = 100
+    - Weighted completion = (60/100 * 100/100) + (10/100 * 100/100) + (30/100 * 100/100) = 0.6 + 0.1 + 0.3 = 1.0 (100%)
+    - Capped at 100%.
+
+### Project 2: "Mobile Marketing"
+- **Strategic Objective:** Growth
+  - **Sub-Objectives:**
+    - Revenue growth: measure = 100, amount = 50 (half complete)
+  - **Calculation:**
+    - Total weight = 100
+    - Weighted completion = (100/100 * 50/100) = 0.5 (50%)
+    - Capped at 50%.
+
+### Category Calculation
+- **Objective 1 (Plant Upgrade):** 100%
+- **Objective 2 (Mobile Marketing):** 50%
+- **Avg. Performance for "Growth" = (100% + 50%) / 2 = 75%**
+
+**Interpretation:**
+- The "Growth" category is, on average, 75% complete across its objectives.
+- This reflects both the number of objectives and their actual progress, weighted by the importance of each sub-objective.
+
+---
+
+**In summary:**
+Avg. Performance is a clear, percentage-based indicator of how much progress has been made toward the strategic goals in each category, making it easy for you to monitor and compare performance at a glance.
+
+
 *This table provides the detailed analytical foundation for strategic performance management and decision-making across all organizational categories.*
