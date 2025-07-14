@@ -16,8 +16,11 @@ This document provides examples of where and how emails are sent in the service 
 
 
 **End-User Example:**
+
 Subject: Welcome to e-SO Platform
+
 Recipient: victor.mahluza@email.com
+
 Body:
 Hi Victor Mahluza,
 
@@ -37,8 +40,11 @@ The e-SO Team
 
 ### Function: `sendBudgetVarianceAlertEmail(Schedule schedule, double budgetVariance, String sponsorEmail)`
 **End-User Example:**
+
 Subject: CRITICAL: Budget Variance Alert - Real-time Data-Driven Decision Support System
+
 Recipient: jimmy.mahluza@email.com
+
 Body:
 Hi Jimmy Mahluza,
 
@@ -56,8 +62,11 @@ e-SO Team
 
 ### Function: `sendQualityScoreAlertEmail(Schedule schedule, double qualityScore, String sponsorEmail)`
 **End-User Example:**
+
 Subject: Quality Score Alert - Real-time Data-Driven Decision Support System
+
 Recipient: jimmy.mahluza@email.com
+
 Body:
 Hi Jimmy Mahluza,
 
@@ -74,8 +83,11 @@ e-SO Team
 
 ### Function: `sendProductivityDropAlertEmail(Schedule schedule, double productivityDrop, String sponsorEmail)`
 **End-User Example:**
+
 Subject: Productivity Drop Alert - Real-time Data-Driven Decision Support System
+
 Recipient: jimmy.mahluza@email.com
+
 Body:
 Hi Jimmy Mahluza,
 
@@ -89,8 +101,11 @@ e-SO Team
 
 ### Function: `sendSlipRateAlertEmail(Schedule schedule, double slipRate, String sponsorEmail)`
 **End-User Example:**
+
 Subject: Schedule Slip Alert - Real-time Data-Driven Decision Support System
+
 Recipient: jimmy.mahluza@email.com
+
 Body:
 Hi Jimmy Mahluza,
 
@@ -104,8 +119,11 @@ e-SO Team
 
 ### Function: `sendHighRiskAlertEmail(Schedule schedule, String riskDescription, String sponsorEmail)`
 **End-User Example:**
+
 Subject: HIGH RISK ALERT - Real-time Data-Driven Decision Support System
+
 Recipient: jimmy.mahluza@email.com
+
 Body:
 Hi Jimmy Mahluza,
 
@@ -121,8 +139,11 @@ e-SO Team
 
 ### Function: `sendProjectManagerChangeEmail(Schedule schedule, String oldManager, String newManager, String sponsorEmail)`
 **End-User Example:**
+
 Subject: Project Manager Change - Real-time Data-Driven Decision Support System
+
 Recipient: jimmy.mahluza@email.com
+
 Body:
 Hi Jimmy Mahluza,
 
@@ -139,8 +160,11 @@ e-SO Team
 
 ### Function: `sendContractorChangeEmail(Schedule schedule, String oldContractor, String newContractor, String sponsorEmail)`
 **End-User Example:**
+
 Subject: Contractor Change - Real-time Data-Driven Decision Support System
+
 Recipient: jimmy.mahluza@email.com
+
 Body:
 Hi Jimmy Mahluza,
 
@@ -157,8 +181,11 @@ e-SO Team
 
 ### Function: `sendCriticalPathChangeEmail(Schedule schedule, String oldPath, String newPath, String sponsorEmail)`
 **End-User Example:**
+
 Subject: Critical Path Change - Real-time Data-Driven Decision Support System
+
 Recipient: jimmy.mahluza@email.com
+
 Body:
 Hi Jimmy Mahluza,
 
@@ -179,8 +206,11 @@ e-SO Team
 
 ### Function: `sendStyledEmail(email, "OTP for Account Request", "Potential Client", body)`
 **End-User Example:**
+
 Subject: OTP for Account Request
+
 Recipient: victor.mahluza@email.com
+
 Body:
 Hi Victor Mahluza,
 
@@ -200,8 +230,11 @@ The e-SO Team
 
 ### Function: `sendStyledEmail(sponsorEmail, "SubObjective Added", sponsorName, message)`
 **End-User Example:**
+
 Subject: SubObjective Added
+
 Recipient: jimmy.mahluza@email.com
+
 Body:
 Hi Jimmy Mahluza,
 
@@ -213,8 +246,11 @@ e-SO Team
 
 ### Function: `sendStyledEmail(sponsorEmail, "SubObjective 100%", sponsorName, message)`
 **End-User Example:**
+
 Subject: SubObjective 100%
+
 Recipient: jimmy.mahluza@email.com
+
 Body:
 Hi Jimmy Mahluza,
 
@@ -232,8 +268,11 @@ e-SO Team
 
 ### Function: `sendAssessmentEmail(...)`
 **End-User Example:**
+
 Subject: User Requirement Assessment for Real-time Data-Driven Decision Support System
+
 Recipient: sarah.ndlovu@email.com, jimmy.mahluza@email.com
+
 Body:
 Hi Sarah Ndlovu and Jimmy Mahluza,
 
@@ -253,8 +292,11 @@ e-SO Team
 
 ### Function: `sendAssessmentEmail(...)`
 **End-User Example:**
+
 Subject: Project Readiness Assessment for Real-time Data-Driven Decision Support System
+
 Recipient: sarah.ndlovu@email.com, jimmy.mahluza@email.com
+
 Body:
 Hi Sarah Ndlovu and Jimmy Mahluza,
 
@@ -275,8 +317,11 @@ Thank you for your attention to this matter, and we wish you continued success w
 
 ### Function: `sendStyledEmail(user.getUserEmail(), subject, userName, emailBody.toString())`
 **End-User Example:**
+
 Subject: Strategic Objectives Update
+
 Recipient: victor.mahluza@email.com
+
 Body:
 Hi Victor Mahluza,
 
@@ -298,8 +343,11 @@ e-SO Team
 
 ### Function: `sendStyledEmail(recipientEmail, subject, recipientName, emailBody.toString(), file)`
 **End-User Example:**
+
 Subject: Payment Receipt - Transaction #123456
+
 Recipient: customer@email.com
+
 Body:
 Dear Victor Mahluza,
 
@@ -321,8 +369,11 @@ e-SO Team
 
 ### Function: `sendStyledEmail(recipientEmail, subject, recipientName, emailBody.toString(), pdfFile)`
 **End-User Example:**
+
 Subject: Payment Receipt - Transaction #123456
+
 Recipient: customer@email.com
+
 Body:
 Dear Victor Mahluza,
 
@@ -348,8 +399,11 @@ e-SO Team
 
 ### Function: `sendStyledEmail(userData.getSponsorEmail(), subject, userData.getSponsorFullName(), body)`
 **End-User Example:**
+
 Subject: Strategic Objective Due Notification
+
 Recipient: jimmy.mahluza@email.com
+
 Body:
 Hi Jimmy Mahluza,
 
