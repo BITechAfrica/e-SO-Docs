@@ -1,0 +1,255 @@
+# Call-to-Action Button Email Testing Guide
+
+## Overview
+This test list covers all email methods that were updated with call-to-action buttons across 5 services. Each test should verify that:
+1. The email is sent successfully
+2. The call-to-action button appears in the email
+3. The button links to the correct frontend URL with proper deep linking
+4. The email content is formatted correctly
+
+---
+
+## 🔧 **SponsorNotificationService Tests**
+
+### Test 1: Quality Score Alert Email
+**Method:** `sendQualityScoreAlertEmail`
+**Trigger:** Schedule with quality score < 70%
+**Expected Button:** "View Project Details" → `/signin?next=/project/{scheduleId}`
+
+**Test Steps:**
+1. Create/update a schedule with quality score below 70%
+2. Trigger the quality score alert
+3. Check email for call-to-action button
+4. Verify button URL: `{frontendUrl}/signin?next=/project/{scheduleId}`
+
+### Test 2: Slip Rate Alert Email  
+**Method:** `sendSlipRateAlertEmail`
+**Trigger:** Schedule with slip rate > 20%
+**Expected Button:** "View Project Details" → `/signin?next=/project/{scheduleId}`
+
+**Test Steps:**
+1. Create/update a schedule with slip rate above 20%
+2. Trigger the slip rate alert
+3. Check email for call-to-action button
+4. Verify button URL: `{frontendUrl}/signin?next=/project/{scheduleId}`
+
+### Test 3: High Risk Alert Email
+**Method:** `sendHighRiskAlertEmail`  
+**Trigger:** Schedule with high risk score
+**Expected Button:** "View Project Details" → `/signin?next=/project/{scheduleId}`
+
+**Test Steps:**
+1. Create/update a schedule with high risk score
+2. Trigger the high risk alert
+3. Check email for call-to-action button
+4. Verify button URL: `{frontendUrl}/signin?next=/project/{scheduleId}`
+
+### Test 4: Project Manager Change Email
+**Method:** `sendProjectManagerChangeEmail`
+**Trigger:** Project manager assignment change
+**Expected Button:** "View Project Details" → `/signin?next=/project/{scheduleId}`
+
+**Test Steps:**
+1. Change a project manager for a schedule
+2. Trigger the project manager change notification
+3. Check email for call-to-action button
+4. Verify button URL: `{frontendUrl}/signin?next=/project/{scheduleId}`
+
+### Test 5: Contractor Change Email
+**Method:** `sendContractorChangeEmail`
+**Trigger:** Contractor assignment change
+**Expected Button:** "View Project Details" → `/signin?next=/project/{scheduleId}`
+
+**Test Steps:**
+1. Change a contractor for a schedule
+2. Trigger the contractor change notification
+3. Check email for call-to-action button
+4. Verify button URL: `{frontendUrl}/signin?next=/project/{scheduleId}`
+
+### Test 6: Critical Path Change Email
+**Method:** `sendCriticalPathChangeEmail`
+**Trigger:** Critical path status change
+**Expected Button:** "View Project Details" → `/signin?next=/project/{scheduleId}`
+
+**Test Steps:**
+1. Change critical path status for a schedule
+2. Trigger the critical path change notification
+3. Check email for call-to-action button
+4. Verify button URL: `{frontendUrl}/signin?next=/project/{scheduleId}`
+
+---
+
+## 📧 **EmailService Tests**
+
+### Test 7: Forecasted End Date Email
+**Method:** `sendForecastedEndDateEmail`
+**Trigger:** Forecasted end date notification
+**Expected Button:** "View Project Details" → `/signin?next=/project/{scheduleId}`
+
+**Test Steps:**
+1. Trigger forecasted end date email
+2. Check email for call-to-action button
+3. Verify button URL: `{frontendUrl}/signin?next=/project/{scheduleId}`
+
+### Test 8: Assessment Email
+**Method:** `sendAssessmentEmail`
+**Trigger:** Assessment notification
+**Expected Button:** "View Project Details" → `/signin?next=/project/{scheduleId}`
+
+**Test Steps:**
+1. Trigger assessment email
+2. Check email for call-to-action button
+3. Verify button URL: `{frontendUrl}/signin?next=/project/{scheduleId}`
+
+---
+
+## 🔐 **OtpService Tests**
+
+### Test 9: Registration OTP Email
+**Method:** `otpToEmail` (registration flow)
+**Trigger:** User registration OTP request
+**Expected Button:** "Verify Account" → `/signin?next=/signup/verify-otp`
+
+**Test Steps:**
+1. Register a new user account
+2. Trigger OTP email for registration
+3. Check email for call-to-action button
+4. Verify button URL: `{frontendUrl}/signin?next=/signup/verify-otp`
+
+### Test 10: Password Reset OTP Email
+**Method:** `sendOtpToEmail` (password reset flow)
+**Trigger:** Password reset OTP request
+**Expected Button:** "Verify OTP & Reset Password" → `/signin?next=/reset-password/verify`
+
+**Test Steps:**
+1. Request password reset
+2. Trigger OTP email for password reset
+3. Check email for call-to-action button
+4. Verify button URL: `{frontendUrl}/signin?next=/reset-password/verify`
+
+---
+
+## 📊 **StrategicObjectiveScheduler Tests**
+
+### Test 11: Strategic Objective Due Date Email
+**Method:** `checkImpactDueDate` (scheduled)
+**Trigger:** Strategic objective due date reached
+**Expected Button:** "View Initiative Details" → `/signin?next=/initiatives/{scheduleId}`
+
+**Test Steps:**
+1. Create a strategic objective with due date = today or last week
+2. Set actual measure < target measure
+3. Wait for or manually trigger the scheduled check (8:00 AM daily)
+4. Check email for call-to-action button
+5. Verify button URL: `{frontendUrl}/signin?next=/initiatives/{scheduleId}`
+
+---
+
+## 💰 **PayStackService Tests**
+
+### Test 12: Receipt Email (Base64 PDF)
+**Method:** `sendReceiptEmail`
+**Trigger:** Payment receipt with base64 PDF
+**Expected Button:** "View Billing Dashboard" → `/signin?next=/billing`
+
+**Test Steps:**
+1. Process a payment transaction
+2. Send receipt email with base64 PDF data
+3. Check email for call-to-action button
+4. Verify button URL: `{frontendUrl}/signin?next=/billing`
+
+### Test 13: Receipt Email (MultipartFile PDF)
+**Method:** `sendReceiptEmailWithFile`
+**Trigger:** Payment receipt with file attachment
+**Expected Button:** "View Billing Dashboard" → `/signin?next=/billing`
+
+**Test Steps:**
+1. Process a payment transaction
+2. Send receipt email with file attachment
+3. Check email for call-to-action button
+4. Verify button URL: `{frontendUrl}/signin?next=/billing`
+
+---
+
+## 🧪 **Testing Checklist for Each Email**
+
+For each test above, verify:
+
+### ✅ **Visual Verification**
+- [ ] Email is received successfully
+- [ ] Call-to-action button is visible
+- [ ] Button has correct styling (blue background, white text, rounded corners)
+- [ ] Button text matches expected text
+- [ ] Email formatting is not broken
+
+### ✅ **Functional Verification**
+- [ ] Button URL is correctly formatted
+- [ ] URL includes correct frontend base URL
+- [ ] URL includes `/signin?next=` pattern
+- [ ] Deep link path is correct for the email type
+- [ ] Schedule ID or relevant parameters are included
+
+### ✅ **Integration Verification**
+- [ ] Clicking button redirects to signin page
+- [ ] After signin, user is redirected to intended page
+- [ ] Deep linking works correctly
+- [ ] No console errors in browser
+
+---
+
+## 🔧 **Test Environment Setup**
+
+### Prerequisites:
+1. **Backend Services Running:** Ensure all services are running
+2. **Email Configuration:** Verify email service is properly configured
+3. **Frontend Running:** Ensure frontend is accessible for URL testing
+4. **Database Setup:** Have test data for schedules, users, payments
+
+### Test Data Requirements:
+- Test schedules with various performance metrics
+- Test users with valid email addresses
+- Test strategic objectives with due dates
+- Test payment transactions
+
+### Monitoring:
+- Check application logs for any errors during email sending
+- Monitor email delivery through your email service provider
+- Verify no broken HTML in email templates
+
+---
+
+## 🚨 **Common Issues to Watch For**
+
+1. **URL Construction Errors**
+   - Missing frontend base URL
+   - Incorrect path parameters
+   - Missing signin redirect
+
+2. **Email Template Issues**
+   - Broken HTML formatting
+   - Missing button styling
+   - Incorrect button placement
+
+3. **Service Dependencies**
+   - AppUrlService not injected properly
+   - Missing dependencies in service constructors
+
+4. **Data Issues**
+   - Schedule IDs not found
+   - User email addresses missing
+   - Invalid strategic objective data
+
+---
+
+## 📊 **Test Results Template**
+
+Use this template to track your testing:
+
+| Test # | Service | Method | Status | Button Visible | URL Correct | Notes |
+|--------|---------|---------|---------|----------------|-------------|-------|
+| 1 | SponsorNotificationService | sendQualityScoreAlertEmail | ⏳ | ⏳ | ⏳ | |
+| 2 | SponsorNotificationService | sendSlipRateAlertEmail | ⏳ | ⏳ | ⏳ | |
+| 3 | SponsorNotificationService | sendHighRiskAlertEmail | ⏳ | ⏳ | ⏳ | |
+| ... | ... | ... | ... | ... | ... | ... |
+
+**Status Legend:** ✅ Pass | ❌ Fail | ⏳ Pending
