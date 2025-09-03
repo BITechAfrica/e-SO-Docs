@@ -19,7 +19,6 @@ GitHub → (OIDC assume-role) → IAM Role → S3 (upload bundle) → EB **Appli
 > * `dev` → EB env **dev-epmo**
 > * `test` → EB env **Epmo-env**
 > * `main` → reserved for future production
-<img width="383.75" height="256" alt="image" src="https://github.com/user-attachments/assets/8bbfad28-e15d-407c-a71e-7c6f9e39f5e9" />
 
 ---
 
