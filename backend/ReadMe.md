@@ -1,5 +1,6 @@
 # Backend DOCS
-<img width="159" height="29.6" alt="image" src="https://github.com/user-attachments/assets/3075fce2-c12c-4fdc-b5d3-dba9075efce3" />
+<img width="795" height="408" alt="image" src="https://github.com/user-attachments/assets/6f08471a-dd79-4b27-bf1d-b546c6748f15" />
+
 # e-SO - Electronic Strategic Management Office Backend
 
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.2-brightgreen.svg)](https://spring.io/projects/spring-boot)
@@ -13,7 +14,7 @@ The **e-SO (Electronic Strategic Management Office)** is a comprehensive project
 
 ### 🎯 Core Purpose
 
-- **Strategic Alignment**: Link projects to organizational strategic objectives
+- **Strategic Alignment**: Link Initiatives to organizational strategic objectives
 - **Project Governance**: Comprehensive project oversight and quality management
 - **Risk Management**: Proactive risk identification, assessment, and mitigation
 - **Resource Management**: Team allocation and capacity planning
