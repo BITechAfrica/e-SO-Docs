@@ -297,26 +297,16 @@ ENTRYPOINT ["java", "-jar", "/app.jar"]
 - **Metrics**: Application performance monitoring
 - **Error Tracking**: Comprehensive error handling and reporting
 
-## 🤝 Contributing
-
-1. Follow Java coding standards
-2. Maintain comprehensive test coverage
-3. Update documentation for API changes
-4. Use feature branches for new development
-
 ## 📞 Support
 
 For technical support and questions:
-- **Email**: support@e-pmo.africa
-- **Documentation**: Available in `/docs` directory
-- **API Testing**: Use Swagger UI for interactive testing
+- **Documentation**: Available in `[/docs](https://dev.epmo-backend.com/swagger-ui/index.html)` directory
+- **API Testing**: Use Swagger UI for interactive testing 
 
 ## 📜 License
 
-This project is proprietary software developed by BiTech for enterprise project management solutions.
+This project is proprietary software developed by BiTech for enterprise strategy management solutions.
 
 ---
 
 **Built with ❤️ by the BiTech Development Team**
-
-*Empowering organizations with intelligent project management solutions*
